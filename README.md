@@ -16,5 +16,24 @@ Development of smart contracts consisted of the following stages:
 - Internal audit
 - External audit
 
+Tempow Token implementation details:
+- Standard followed - ERC20
+- Token name - Tempow Token
+- Token symbol - TEMP
+- Type - utility token
+- Decimals - 18
+- Ownable
+- Mint functionality (only from owner)
+- Finish minting (only once from owner)
+- Extract mistakenly sent tokens and Ether
+- Revertible fallback
 
-
+Tempow Controller implementation details:
+- sendTokens
+- bulkSendTokens
+- tokensTransferred
+- usdRaised
+- usdMintCap
+- Ownable
+- Extract mistakenly sent tokens and Ether
+- Revertible fallback
