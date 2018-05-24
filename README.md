@@ -7,7 +7,7 @@ Token starts with *totalSupply* equal to zero and all new tokens assigned to dif
 through owner. Ownership can be transferred, and a proper event will be raised upon that action. Both contracts are having revertible fallback functions, thus not receiving Ether. On arithmetic operations, common exceptions like overflow and division with zero have been taken care of (through *SafeMath*).
 
 ## Implementation Details
-Both contracts were implemented on Ethereum platform (written in Solidity, version 0.4.21). Open Zeppelin Solidity library was used as a base.
+Both contracts have been implemented on [Ethereum](https://www.ethereum.org/) platform (written in Solidity, version 0.4.21). Open Zeppelin Solidity library was used as a base.
 
 Development of smart contracts consisted of the following stages:
 - Requirement analysis
