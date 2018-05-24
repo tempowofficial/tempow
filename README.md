@@ -16,7 +16,7 @@ Development of smart contracts consisted of the following stages:
 - Internal audit
 - External audit
 
-Tempow Token implementation details:
+**Tempow Token** implementation details:
 - Standard followed - ERC20
 - Token name - Tempow Token
 - Token symbol - TEMP
@@ -28,7 +28,7 @@ Tempow Token implementation details:
 - Extract mistakenly sent tokens and Ether
 - Revertible fallback
 
-Tempow Controller implementation details:
+**Tempow Controller** implementation details:
 - sendTokens
 - bulkSendTokens
 - tokensTransferred
