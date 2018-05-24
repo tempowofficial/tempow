@@ -6,3 +6,16 @@ implementation of ERC20 interface (transfer and approval functionalities). *Mint
 
 Token starts with *totalSupply* equal to zero and all new tokens assigned to different addresses are minted. Once minting is completed, there is an option to finish minting. When minting is finished, there is no way to go back and enable it. And it can be done only
 through owner. Ownership can be transferred, and a proper event will be raised upon that action. Both contracts are having revertible fallback functions, thus not receiving Ether. On arithmetic operations, common exceptions like overflow and division with zero should be taken care of (through *SafeMath*).
+
+## Implementation Details
+Both contracts will be implemented on Ethereum platform (written in Solidity, version 0.4.21). Open Zeppelin Solidity library is going to be used as a base. Also, parts and logic from MiniMe token are going to be used.
+
+Development of smart contracts will consist of the following stages:
+- Requirement analysis
+- Implementation
+- Testing (on testnet)
+- Internal audit
+- External audit
+
+
+
